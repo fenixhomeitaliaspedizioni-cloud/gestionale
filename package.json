@@ -1,0 +1,21 @@
+{
+  "name": "fenix-gestionale",
+  "version": "2.0.0",
+  "description": "Fenix Home Italia - Gestionale Spedizioni",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdfkit": "^0.13.0",
+    "better-sqlite3": "^9.4.3"
+  },
+  "keywords": ["spedizioni", "gestionale", "shopify"],
+  "author": "Fenix Home Italia",
+  "license": "MIT"
+}
